@@ -1,0 +1,25 @@
+nav {
+  height: 100%;
+  border-bottom: 1px solid white;
+}
+
+.side-nav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.side-nav-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 30%;
+}
+
+.bg-dark {
+  background-color: #252526 !important;
+}
+
+.navbar-collapse {
+  z-index: -1 !important;
+}
